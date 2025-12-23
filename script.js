@@ -18,7 +18,7 @@ function updateIntro() {
 function buildNav() {
   const navLinks = [
     { name: "Home", href: "index.html" },
-    { name: "Projects", href: "Projects.html" },
+    { name: "Projects", href: "projects.html" },
     { name: "Contact", href: "contact.html" }
   ];
 
@@ -192,4 +192,3 @@ document.addEventListener("DOMContentLoaded", () => {
   buildProjects();
   setupContactForm();
 });
-
