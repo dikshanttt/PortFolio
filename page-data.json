@@ -1,0 +1,8 @@
+{
+  "navLinks": [
+    { "name": "Home", "href": "index.html" },
+    { "name": "Projects", "href": "projects.html" },
+    { "name": "Skills", "href": "skills.html" },
+    { "name": "Contact", "href": "contact.html" }
+  ]
+}

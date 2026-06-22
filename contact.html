@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dikshant | Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">D</span>
+          <div>
+            <strong>Dikshant</strong>
+            <span>Visual-first developer</span>
+          </div>
+        </a>
+
+        <nav aria-label="Primary navigation">
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="page-shell contact-page">
+    <main class="section-block full-page">
+      <div class="section-heading">
+        <span class="section-tag">Let's connect</span>
+        <h1>Ready to bring your next idea to life?</h1>
+        <p>Leave a message and I’ll reply with a clear plan and timeline.</p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-panel">
+          <h3>Contact details</h3>
+          <p>Fast replies, clear direction, and a focus on quality visuals.</p>
+          <dl>
+            <div>
+              <dt>Location</dt>
+              <dd>Kathmandu, Nepal</dd>
+            </div>
+            <div>
+              <dt>Availability</dt>
+              <dd>Open for freelance and portfolio projects</dd>
+            </div>
+          </dl>
+        </div>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell me about your project" required></textarea>
+
+          <button type="submit" class="button button-primary">Send message</button>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
