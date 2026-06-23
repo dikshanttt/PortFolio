@@ -89,12 +89,16 @@ img {
 .brand-mark {
   width: 44px;
   height: 44px;
-  display: grid;
-  place-items: center;
+  flex-shrink: 0;          /* Prevent shrinking */
+  display: flex;           /* Better centering */
+  align-items: center;
+  justify-content: center;
   border-radius: 14px;
   background: linear-gradient(135deg, var(--accent), #3f76ff);
   color: #021723;
   font-weight: 800;
+  font-size: 1.2rem;
+  line-height: 1;          /* Prevent vertical offset */
 }
 
 .brand strong {
@@ -102,11 +106,12 @@ img {
   font-size: 1rem;
 }
 
-.brand span {
+.brand-text span {
   display: block;
   font-size: 0.82rem;
   color: var(--muted);
 }
+
 
 .nav-list {
   list-style: none;
@@ -554,6 +559,7 @@ img {
   .nav-list {
     gap: 1rem;
   }
+
 
   .hero-section,
   .full-page {
